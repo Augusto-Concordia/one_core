@@ -7,15 +7,15 @@ public class Register {
         this(0);
     }
 
-    public Register(int value) {
-        this.value = value;
-    }
-
     public int getValue() {
         return this.value;
     }
 
     public void setValue(int newValue) {
         this.value = newValue;
+    }
+
+    public Register(int value) {
+        this.value = value;
     }
 }
