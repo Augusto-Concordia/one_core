@@ -1,7 +1,7 @@
 /**
  * Main.java
  * Written by: Augusto M.P (40208080)
- * For COMP 371, Assignment #1
+ * For COMP 346, Assignment #1
  */
 
 import models.IODevice;
