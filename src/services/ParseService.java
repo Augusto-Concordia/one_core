@@ -16,37 +16,36 @@ public class ParseService {
         // Skip the first line, which are the headers for each column
         for (int i = 1; i < lines.size(); i++) {
             final var line = lines.get(i);
-            final var process = new Process();
+            final Process process;
 
             final var matcher = linePattern.matcher(line);
 
             // Even if it's not strictly necessary, we check if the line matches the pattern (i.e. if it's a valid line)
-            if (matcher.find()) {
-                process.setId(Integer.parseInt(matcher.group(1)));
-                process.setInstructionCount(Integer.parseInt(matcher.group(2)));
+            if (!matcher.find()) continue;
 
-                // If the third group is null, then we don't have any IO operations
-                if (matcher.group(3) != null) {
-                    final var ioRequestStrings = matcher.group(3).split(",");
-                    final var ioRequests = new int[ioRequestStrings.length];
+            process = new Process(Integer.parseInt(matcher.group(1)));
+            process.setInstructionCount(Integer.parseInt(matcher.group(2)));
 
-                    final var ioDeviceRequestedStrings = matcher.group(4).split(",");
-                    final var ioDevicesRequested = new int[ioDeviceRequestedStrings.length];
+            // If the third group is null, then we don't have any IO operations
+            if (matcher.group(3) != null) {
+                final var ioRequestStrings = matcher.group(3).split(",");
+                final var ioRequests = new int[ioRequestStrings.length];
 
-                    // We can solely take the length of the third group because it will always be the same as the second group (as said by the assignment)
-                    for (int j = 0; j < ioRequestStrings.length; j++) {
-                        ioRequests[j] = Integer.parseInt(ioRequestStrings[j]);
+                final var ioDeviceRequestedStrings = matcher.group(4).split(",");
+                final var ioDevicesRequested = new int[ioDeviceRequestedStrings.length];
 
-                        // We subtract 1 from the ioRequest because the assignment says that the first instruction is 1, but we want it to be 0-based
-                        ioDevicesRequested[j] = Integer.parseInt(ioDeviceRequestedStrings[j]) - 1;
-                    }
+                // We can solely take the length of the third group because it will always be the same as the second group (as said by the assignment)
+                for (int j = 0; j < ioRequestStrings.length; j++) {
+                    ioRequests[j] = Integer.parseInt(ioRequestStrings[j]);
 
-                    process.setIoRequests(ioRequests);
-                    process.setIoDevicesRequested(ioDevicesRequested);
+                    // We subtract 1 from the ioRequest because the assignment says that the first instruction is 1, but we want it to be 0-based
+                    ioDevicesRequested[j] = Integer.parseInt(ioDeviceRequestedStrings[j]) - 1;
                 }
 
-                processes[i - 1] = process;
+                process.setIoRequests(ioRequests, ioDevicesRequested);
             }
+
+            processes[i - 1] = process;
         }
 
         return processes;

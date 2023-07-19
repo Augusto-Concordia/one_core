@@ -1,21 +1,17 @@
 package models;
 
-import java.util.Arrays;
+import java.util.Dictionary;
+import java.util.Hashtable;
 
 public class Process {
     private int id;
 
     private int instructionCount;
 
-    private int[] ioRequests;
-    private int[] ioDevicesRequested;
+    private final Hashtable<Integer, Integer> ioRequests = new Hashtable<>();
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public int getInstructionCount() {
@@ -26,31 +22,29 @@ public class Process {
         this.instructionCount = instructionCount;
     }
 
-    public int[] getIoRequests() {
-        return ioRequests;
+    public Hashtable<Integer, Integer> getIoRequests() {
+        return new Hashtable<>(ioRequests);
     }
 
-    public void setIoRequests(int[] ioRequests) {
-        this.ioRequests = ioRequests;
-    }
-
-    public int[] getIoDevicesRequested() {
-        return ioDevicesRequested;
-    }
-
-    public void setIoDevicesRequested(int[] ioDevicesRequested) {
-        this.ioDevicesRequested = ioDevicesRequested;
+    public void setIoRequests(int[] ioRequests, int[] ioDevicesRequested) {
+        for (int i = 0; i < ioRequests.length; i++) {
+            this.ioRequests.put(ioRequests[i], ioDevicesRequested[i]);
+        }
     }
 
     public Process() {
-        this(0, 0, new int[0], new int[0]);
+        this(-1, 0, new int[0], new int[0]);
+    }
+
+    public Process(int id) {
+        this(id, 0, new int[0], new int[0]);
     }
 
     public Process(int id, int instructionCount, int[] ioRequests, int[] ioDevicesRequested) {
         this.id = id;
         this.instructionCount = instructionCount;
-        this.ioRequests = ioRequests;
-        this.ioDevicesRequested = ioDevicesRequested;
+
+        this.setIoRequests(ioRequests, ioDevicesRequested);
     }
 
     @Override
@@ -58,8 +52,7 @@ public class Process {
         final StringBuilder sb = new StringBuilder("Process { ");
         sb.append("id: ").append(id);
         sb.append(", instructionCount: ").append(instructionCount);
-        sb.append(", ioRequests: ").append(Arrays.toString(ioRequests));
-        sb.append(", ioDevicesRequested: ").append(Arrays.toString(ioDevicesRequested));
+        sb.append(", ioRequests: ").append(ioRequests);
         sb.append(" }");
 
         return sb.toString();
