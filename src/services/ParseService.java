@@ -1,3 +1,9 @@
+/**
+ * ParseService.java
+ * Written by: Augusto M.P (40208080)
+ * For COMP 371, Assignment #1
+ */
+
 package services;
 
 import models.Process;
@@ -5,9 +11,18 @@ import models.Process;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
-// In a real project, this class would be generic and would be able to parse any type of object
+/**
+ * A class containing methods to parse data. In a real-world project, this would be a generic class, but for the sake of this assignment, it's not.
+ */
 public class ParseService {
+
+    /**
+     * Parses the given lines into an array of processes.
+     * @param lines The lines to parse.
+     * @return An array of processes.
+     */
     public static Process[] parseLinesIntoProcesses(ArrayList<String> lines) {
+        // The pattern for a line is: <process id>, <number of instructions>, [<io requests>], [<io devices requested>]
         final var linePattern = Pattern.compile("([0-9]), ([0-9]+), \\[(.+)*\\] \\[(.+)*\\]", Pattern.CASE_INSENSITIVE);
 
         // Subtract 2 because we're skipping the first line
@@ -45,6 +60,7 @@ public class ParseService {
                 process.setIoRequests(ioRequests, ioDevicesRequested);
             }
 
+            // We subtract 1 from the process array, because we ignore the first line (which is the headers)
             processes[i - 1] = process;
         }
 

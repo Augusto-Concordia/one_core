@@ -1,14 +1,22 @@
+/**
+ * Process.java
+ * Written by: Augusto M.P (40208080)
+ * For COMP 371, Assignment #1
+ */
+
 package models;
 
-import java.util.Dictionary;
 import java.util.Hashtable;
 
+/**
+ * A class representing a process.
+ */
 public class Process {
-    private int id;
+    private final int id; // The id of the process
 
-    private int instructionCount;
+    private int instructionCount; // The number of instructions the process has
 
-    private final Hashtable<Integer, Integer> ioRequests = new Hashtable<>();
+    private final Hashtable<Integer, Integer> ioRequests = new Hashtable<>(); // The IO requests of the process. The key is the instruction number, the value is the IO device requested
 
     public int getId() {
         return id;
@@ -32,14 +40,28 @@ public class Process {
         }
     }
 
+    /**
+     * Creates a new Process with id -1, instruction count 0, and no IO requests.
+     */
     public Process() {
         this(-1, 0, new int[0], new int[0]);
     }
 
+    /**
+     * Creates a new Process with the given id, instruction count 0, and no IO requests.
+     * @param id The id of the process.
+     */
     public Process(int id) {
         this(id, 0, new int[0], new int[0]);
     }
 
+    /**
+     * Creates a new Process with the given id, instruction count, and IO requests.
+     * @param id The id of the process.
+     * @param instructionCount The number of instructions the process has.
+     * @param ioRequests The IO requests of the process.
+     * @param ioDevicesRequested The IO devices requested by the process.
+     */
     public Process(int id, int instructionCount, int[] ioRequests, int[] ioDevicesRequested) {
         this.id = id;
         this.instructionCount = instructionCount;
