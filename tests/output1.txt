@@ -1,0 +1,3270 @@
+CPU State (@ 0 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 0, aliveTime: 0, registers: [Register { 0 }, Register { 0 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 0, aliveTime: 0, registers: [Register { 0 }, Register { 0 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 1, aliveTime: 1, registers: [Register { 99 }, Register { 30 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 1 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 0, aliveTime: 0, registers: [Register { 0 }, Register { 0 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 0, aliveTime: 0, registers: [Register { 0 }, Register { 0 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 91 }, Register { 13 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 2 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 0, aliveTime: 0, registers: [Register { 0 }, Register { 0 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 91 }, Register { 13 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 1, aliveTime: 1, registers: [Register { 95 }, Register { 83 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 3 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 0, aliveTime: 0, registers: [Register { 0 }, Register { 0 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 91 }, Register { 13 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 56 }, Register { 67 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 4 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 91 }, Register { 13 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 56 }, Register { 67 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 1, aliveTime: 1, registers: [Register { 89 }, Register { 95 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 5 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 91 }, Register { 13 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 56 }, Register { 67 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 43 }, Register { 85 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 6 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 56 }, Register { 67 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 43 }, Register { 85 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 3, aliveTime: 3, registers: [Register { 75 }, Register { 68 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 7 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 56 }, Register { 67 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 43 }, Register { 85 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 4, aliveTime: 4, registers: [Register { 61 }, Register { 26 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 8 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 43 }, Register { 85 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 4, aliveTime: 4, registers: [Register { 61 }, Register { 26 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 3, aliveTime: 3, registers: [Register { 63 }, Register { 9 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 9 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 2, aliveTime: 2, registers: [Register { 43 }, Register { 85 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 4, aliveTime: 4, registers: [Register { 61 }, Register { 26 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 4, aliveTime: 4, registers: [Register { 75 }, Register { 32 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 10 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 4, aliveTime: 4, registers: [Register { 61 }, Register { 26 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 4, aliveTime: 4, registers: [Register { 75 }, Register { 32 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 3, aliveTime: 3, registers: [Register { 22 }, Register { 49 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 11 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 4, aliveTime: 4, registers: [Register { 61 }, Register { 26 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 4, aliveTime: 4, registers: [Register { 75 }, Register { 32 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 4, aliveTime: 4, registers: [Register { 26 }, Register { 96 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 12 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 4, aliveTime: 4, registers: [Register { 75 }, Register { 32 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 4, aliveTime: 4, registers: [Register { 26 }, Register { 96 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 4, aliveTime: 4, registers: [Register { 61 }, Register { 26 }], ioDevice: null }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 13 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 4, aliveTime: 4, registers: [Register { 26 }, Register { 96 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 5, aliveTime: 5, registers: [Register { 62 }, Register { 48 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 4, aliveTime: 4, registers: [Register { 61 }, Register { 26 }], ioDevice: IODevice { id: 1, processingTime: 5 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 14 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 4, aliveTime: 4, registers: [Register { 26 }, Register { 96 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 6, aliveTime: 6, registers: [Register { 0 }, Register { 98 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 4, aliveTime: 5, registers: [Register { 61 }, Register { 26 }], ioDevice: IODevice { id: 1, processingTime: 4 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 15 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 6, aliveTime: 6, registers: [Register { 0 }, Register { 98 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 5, aliveTime: 5, registers: [Register { 5 }, Register { 27 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 4, aliveTime: 6, registers: [Register { 61 }, Register { 26 }], ioDevice: IODevice { id: 1, processingTime: 3 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 16 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 6, aliveTime: 6, registers: [Register { 0 }, Register { 98 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 6, aliveTime: 6, registers: [Register { 61 }, Register { 27 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 4, aliveTime: 7, registers: [Register { 61 }, Register { 26 }], ioDevice: IODevice { id: 1, processingTime: 2 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 17 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 6, aliveTime: 6, registers: [Register { 61 }, Register { 27 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 7, aliveTime: 7, registers: [Register { 4 }, Register { 19 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 4, aliveTime: 8, registers: [Register { 61 }, Register { 26 }], ioDevice: IODevice { id: 1, processingTime: 1 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 18 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 6, aliveTime: 6, registers: [Register { 61 }, Register { 27 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 5, aliveTime: 10, registers: [Register { 99 }, Register { 68 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 8, aliveTime: 8, registers: [Register { 68 }, Register { 67 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 19 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 5, aliveTime: 10, registers: [Register { 99 }, Register { 68 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 8, aliveTime: 8, registers: [Register { 68 }, Register { 67 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 7, aliveTime: 7, registers: [Register { 74 }, Register { 36 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 20 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 5, aliveTime: 10, registers: [Register { 99 }, Register { 68 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 8, aliveTime: 8, registers: [Register { 68 }, Register { 67 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 8, aliveTime: 8, registers: [Register { 52 }, Register { 64 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 21 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 8, aliveTime: 8, registers: [Register { 68 }, Register { 67 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 8, aliveTime: 8, registers: [Register { 52 }, Register { 64 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 5, aliveTime: 10, registers: [Register { 99 }, Register { 68 }], ioDevice: null }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 22 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 8, aliveTime: 8, registers: [Register { 52 }, Register { 64 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 9, aliveTime: 9, registers: [Register { 37 }, Register { 94 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 5, aliveTime: 10, registers: [Register { 99 }, Register { 68 }], ioDevice: IODevice { id: 1, processingTime: 5 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 23 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 8, aliveTime: 8, registers: [Register { 52 }, Register { 64 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 10, aliveTime: 10, registers: [Register { 80 }, Register { 54 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 5, aliveTime: 11, registers: [Register { 99 }, Register { 68 }], ioDevice: IODevice { id: 1, processingTime: 4 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 24 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 10, aliveTime: 10, registers: [Register { 80 }, Register { 54 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 9, aliveTime: 9, registers: [Register { 99 }, Register { 38 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 5, aliveTime: 12, registers: [Register { 99 }, Register { 68 }], ioDevice: IODevice { id: 1, processingTime: 3 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 25 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 10, aliveTime: 10, registers: [Register { 80 }, Register { 54 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 10, aliveTime: 10, registers: [Register { 68 }, Register { 11 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 5, aliveTime: 13, registers: [Register { 99 }, Register { 68 }], ioDevice: IODevice { id: 1, processingTime: 2 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 26 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 10, aliveTime: 10, registers: [Register { 68 }, Register { 11 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 11, aliveTime: 11, registers: [Register { 67 }, Register { 61 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 5, aliveTime: 14, registers: [Register { 99 }, Register { 68 }], ioDevice: IODevice { id: 1, processingTime: 1 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 27 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 10, aliveTime: 10, registers: [Register { 68 }, Register { 11 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 6, aliveTime: 16, registers: [Register { 36 }, Register { 10 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 12, aliveTime: 12, registers: [Register { 6 }, Register { 70 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 28 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 6, aliveTime: 16, registers: [Register { 36 }, Register { 10 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 12, aliveTime: 12, registers: [Register { 6 }, Register { 70 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 11, aliveTime: 11, registers: [Register { 89 }, Register { 46 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 29 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 6, aliveTime: 16, registers: [Register { 36 }, Register { 10 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 12, aliveTime: 12, registers: [Register { 6 }, Register { 70 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 12, aliveTime: 12, registers: [Register { 11 }, Register { 71 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 30 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 12, aliveTime: 12, registers: [Register { 6 }, Register { 70 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 12, aliveTime: 12, registers: [Register { 11 }, Register { 71 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 7, aliveTime: 17, registers: [Register { 24 }, Register { 35 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 31 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 12, aliveTime: 12, registers: [Register { 6 }, Register { 70 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 12, aliveTime: 12, registers: [Register { 11 }, Register { 71 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 8, aliveTime: 18, registers: [Register { 58 }, Register { 5 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 32 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 12, aliveTime: 12, registers: [Register { 11 }, Register { 71 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 8, aliveTime: 18, registers: [Register { 58 }, Register { 5 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 13, aliveTime: 13, registers: [Register { 26 }, Register { 80 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 33 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 12, aliveTime: 12, registers: [Register { 11 }, Register { 71 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 8, aliveTime: 18, registers: [Register { 58 }, Register { 5 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 14, aliveTime: 14, registers: [Register { 72 }, Register { 45 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 34 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 8, aliveTime: 18, registers: [Register { 58 }, Register { 5 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 14, aliveTime: 14, registers: [Register { 72 }, Register { 45 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 13, aliveTime: 13, registers: [Register { 7 }, Register { 87 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 35 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 8, aliveTime: 18, registers: [Register { 58 }, Register { 5 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 14, aliveTime: 14, registers: [Register { 72 }, Register { 45 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 13, aliveTime: 13, registers: [Register { 7 }, Register { 87 }], ioDevice: null }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 36 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 14, aliveTime: 14, registers: [Register { 72 }, Register { 45 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 9, aliveTime: 19, registers: [Register { 18 }, Register { 73 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 13, aliveTime: 13, registers: [Register { 7 }, Register { 87 }], ioDevice: IODevice { id: 1, processingTime: 5 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 37 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 14, aliveTime: 14, registers: [Register { 72 }, Register { 45 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 10, aliveTime: 20, registers: [Register { 59 }, Register { 51 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 13, aliveTime: 14, registers: [Register { 7 }, Register { 87 }], ioDevice: IODevice { id: 1, processingTime: 4 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 38 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 10, aliveTime: 20, registers: [Register { 59 }, Register { 51 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 15, aliveTime: 15, registers: [Register { 15 }, Register { 63 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 13, aliveTime: 15, registers: [Register { 7 }, Register { 87 }], ioDevice: IODevice { id: 1, processingTime: 3 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 39 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 10, aliveTime: 20, registers: [Register { 59 }, Register { 51 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 16, aliveTime: 16, registers: [Register { 70 }, Register { 43 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 13, aliveTime: 16, registers: [Register { 7 }, Register { 87 }], ioDevice: IODevice { id: 1, processingTime: 2 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 40 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 16, aliveTime: 16, registers: [Register { 70 }, Register { 43 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 11, aliveTime: 21, registers: [Register { 28 }, Register { 12 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 13, aliveTime: 17, registers: [Register { 7 }, Register { 87 }], ioDevice: IODevice { id: 1, processingTime: 1 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 41 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 16, aliveTime: 16, registers: [Register { 70 }, Register { 43 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 14, aliveTime: 19, registers: [Register { 96 }, Register { 97 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 12, aliveTime: 22, registers: [Register { 28 }, Register { 97 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 42 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 14, aliveTime: 19, registers: [Register { 96 }, Register { 97 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 12, aliveTime: 22, registers: [Register { 28 }, Register { 97 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 17, aliveTime: 17, registers: [Register { 42 }, Register { 73 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 43 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 14, aliveTime: 19, registers: [Register { 96 }, Register { 97 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 12, aliveTime: 22, registers: [Register { 28 }, Register { 97 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 18, aliveTime: 18, registers: [Register { 5 }, Register { 27 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 44 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 12, aliveTime: 22, registers: [Register { 28 }, Register { 97 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 18, aliveTime: 18, registers: [Register { 5 }, Register { 27 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 15, aliveTime: 20, registers: [Register { 3 }, Register { 67 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 45 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 12, aliveTime: 22, registers: [Register { 28 }, Register { 97 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 18, aliveTime: 18, registers: [Register { 5 }, Register { 27 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 16, aliveTime: 21, registers: [Register { 45 }, Register { 17 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 46 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 18, aliveTime: 18, registers: [Register { 5 }, Register { 27 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 16, aliveTime: 21, registers: [Register { 45 }, Register { 17 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 13, aliveTime: 23, registers: [Register { 96 }, Register { 33 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 47 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 18, aliveTime: 18, registers: [Register { 5 }, Register { 27 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 16, aliveTime: 21, registers: [Register { 45 }, Register { 17 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 14, aliveTime: 24, registers: [Register { 19 }, Register { 32 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 48 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 16, aliveTime: 21, registers: [Register { 45 }, Register { 17 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 14, aliveTime: 24, registers: [Register { 19 }, Register { 32 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 19, aliveTime: 19, registers: [Register { 34 }, Register { 63 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 49 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 16, aliveTime: 21, registers: [Register { 45 }, Register { 17 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 14, aliveTime: 24, registers: [Register { 19 }, Register { 32 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 20, aliveTime: 20, registers: [Register { 90 }, Register { 54 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 50 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 14, aliveTime: 24, registers: [Register { 19 }, Register { 32 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 20, aliveTime: 20, registers: [Register { 90 }, Register { 54 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 17, aliveTime: 22, registers: [Register { 67 }, Register { 72 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 51 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 14, aliveTime: 24, registers: [Register { 19 }, Register { 32 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 20, aliveTime: 20, registers: [Register { 90 }, Register { 54 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 18, aliveTime: 23, registers: [Register { 72 }, Register { 6 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 52 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 20, aliveTime: 20, registers: [Register { 90 }, Register { 54 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 18, aliveTime: 23, registers: [Register { 72 }, Register { 6 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 15, aliveTime: 25, registers: [Register { 16 }, Register { 43 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 53 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 20, aliveTime: 20, registers: [Register { 90 }, Register { 54 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 18, aliveTime: 23, registers: [Register { 72 }, Register { 6 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 16, aliveTime: 26, registers: [Register { 80 }, Register { 68 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 54 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 18, aliveTime: 23, registers: [Register { 72 }, Register { 6 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 16, aliveTime: 26, registers: [Register { 80 }, Register { 68 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 21, aliveTime: 21, registers: [Register { 71 }, Register { 81 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 55 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 18, aliveTime: 23, registers: [Register { 72 }, Register { 6 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 16, aliveTime: 26, registers: [Register { 80 }, Register { 68 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 22, aliveTime: 22, registers: [Register { 76 }, Register { 76 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 56 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 16, aliveTime: 26, registers: [Register { 80 }, Register { 68 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 22, aliveTime: 22, registers: [Register { 76 }, Register { 76 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 19, aliveTime: 24, registers: [Register { 58 }, Register { 18 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 57 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 16, aliveTime: 26, registers: [Register { 80 }, Register { 68 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 22, aliveTime: 22, registers: [Register { 76 }, Register { 76 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 19, aliveTime: 24, registers: [Register { 58 }, Register { 18 }], ioDevice: null }
+  Terminated PCBs
+
+CPU State (@ 58 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 22, aliveTime: 22, registers: [Register { 76 }, Register { 76 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 16, aliveTime: 26, registers: [Register { 80 }, Register { 68 }], ioDevice: null }
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 19, aliveTime: 24, registers: [Register { 58 }, Register { 18 }], ioDevice: IODevice { id: 2, processingTime: 5 } }
+  Terminated PCBs
+
+CPU State (@ 59 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 23, aliveTime: 23, registers: [Register { 0 }, Register { 50 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 16, aliveTime: 26, registers: [Register { 80 }, Register { 68 }], ioDevice: IODevice { id: 1, processingTime: 5 } }
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 19, aliveTime: 25, registers: [Register { 58 }, Register { 18 }], ioDevice: IODevice { id: 2, processingTime: 4 } }
+  Terminated PCBs
+
+CPU State (@ 60 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 24, aliveTime: 24, registers: [Register { 90 }, Register { 57 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 16, aliveTime: 27, registers: [Register { 80 }, Register { 68 }], ioDevice: IODevice { id: 1, processingTime: 4 } }
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 19, aliveTime: 26, registers: [Register { 58 }, Register { 18 }], ioDevice: IODevice { id: 2, processingTime: 3 } }
+  Terminated PCBs
+
+CPU State (@ 61 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 25, aliveTime: 25, registers: [Register { 87 }, Register { 13 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 16, aliveTime: 28, registers: [Register { 80 }, Register { 68 }], ioDevice: IODevice { id: 1, processingTime: 3 } }
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 19, aliveTime: 27, registers: [Register { 58 }, Register { 18 }], ioDevice: IODevice { id: 2, processingTime: 2 } }
+  Terminated PCBs
+
+CPU State (@ 62 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 26, aliveTime: 26, registers: [Register { 3 }, Register { 10 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 16, aliveTime: 29, registers: [Register { 80 }, Register { 68 }], ioDevice: IODevice { id: 1, processingTime: 2 } }
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 19, aliveTime: 28, registers: [Register { 58 }, Register { 18 }], ioDevice: IODevice { id: 2, processingTime: 1 } }
+  Terminated PCBs
+
+CPU State (@ 63 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 20, aliveTime: 30, registers: [Register { 15 }, Register { 54 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 27, aliveTime: 27, registers: [Register { 64 }, Register { 37 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+    PCB { id: 1, state: Waiting, counter: 16, aliveTime: 30, registers: [Register { 80 }, Register { 68 }], ioDevice: IODevice { id: 1, processingTime: 1 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 64 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 20, aliveTime: 30, registers: [Register { 15 }, Register { 54 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 17, aliveTime: 32, registers: [Register { 78 }, Register { 13 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 28, aliveTime: 28, registers: [Register { 40 }, Register { 81 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 65 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 17, aliveTime: 32, registers: [Register { 78 }, Register { 13 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 28, aliveTime: 28, registers: [Register { 40 }, Register { 81 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 20, aliveTime: 30, registers: [Register { 15 }, Register { 54 }], ioDevice: null }
+  Terminated PCBs
+
+CPU State (@ 66 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 28, aliveTime: 28, registers: [Register { 40 }, Register { 81 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 18, aliveTime: 33, registers: [Register { 18 }, Register { 33 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 20, aliveTime: 30, registers: [Register { 15 }, Register { 54 }], ioDevice: IODevice { id: 2, processingTime: 5 } }
+  Terminated PCBs
+
+CPU State (@ 67 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 18, aliveTime: 33, registers: [Register { 18 }, Register { 33 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 29, aliveTime: 29, registers: [Register { 12 }, Register { 40 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 20, aliveTime: 31, registers: [Register { 15 }, Register { 54 }], ioDevice: IODevice { id: 2, processingTime: 4 } }
+  Terminated PCBs
+
+CPU State (@ 68 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 18, aliveTime: 33, registers: [Register { 18 }, Register { 33 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 30, aliveTime: 30, registers: [Register { 24 }, Register { 86 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 20, aliveTime: 32, registers: [Register { 15 }, Register { 54 }], ioDevice: IODevice { id: 2, processingTime: 3 } }
+  Terminated PCBs
+
+CPU State (@ 69 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 30, aliveTime: 30, registers: [Register { 24 }, Register { 86 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 19, aliveTime: 34, registers: [Register { 30 }, Register { 32 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 20, aliveTime: 33, registers: [Register { 15 }, Register { 54 }], ioDevice: IODevice { id: 2, processingTime: 2 } }
+  Terminated PCBs
+
+CPU State (@ 70 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 30, aliveTime: 30, registers: [Register { 24 }, Register { 86 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 20, aliveTime: 34, registers: [Register { 15 }, Register { 54 }], ioDevice: IODevice { id: 2, processingTime: 1 } }
+    PCB { id: 1, state: Waiting, counter: 19, aliveTime: 34, registers: [Register { 30 }, Register { 32 }], ioDevice: null }
+  Terminated PCBs
+
+CPU State (@ 71 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 21, aliveTime: 36, registers: [Register { 98 }, Register { 37 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 31, aliveTime: 31, registers: [Register { 65 }, Register { 22 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 1, state: Waiting, counter: 19, aliveTime: 34, registers: [Register { 30 }, Register { 32 }], ioDevice: IODevice { id: 2, processingTime: 5 } }
+  Terminated PCBs
+
+CPU State (@ 72 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 21, aliveTime: 36, registers: [Register { 98 }, Register { 37 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 32, aliveTime: 32, registers: [Register { 48 }, Register { 88 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 1, state: Waiting, counter: 19, aliveTime: 35, registers: [Register { 30 }, Register { 32 }], ioDevice: IODevice { id: 2, processingTime: 4 } }
+  Terminated PCBs
+
+CPU State (@ 73 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 32, aliveTime: 32, registers: [Register { 48 }, Register { 88 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 1, state: Waiting, counter: 19, aliveTime: 36, registers: [Register { 30 }, Register { 32 }], ioDevice: IODevice { id: 2, processingTime: 3 } }
+    PCB { id: 3, state: Waiting, counter: 21, aliveTime: 36, registers: [Register { 98 }, Register { 37 }], ioDevice: null }
+  Terminated PCBs
+
+CPU State (@ 74 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 33, aliveTime: 33, registers: [Register { 31 }, Register { 38 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 1, state: Waiting, counter: 19, aliveTime: 37, registers: [Register { 30 }, Register { 32 }], ioDevice: IODevice { id: 2, processingTime: 2 } }
+    PCB { id: 3, state: Waiting, counter: 21, aliveTime: 36, registers: [Register { 98 }, Register { 37 }], ioDevice: null }
+  Terminated PCBs
+
+CPU State (@ 75 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 34, aliveTime: 34, registers: [Register { 87 }, Register { 94 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 1, state: Waiting, counter: 19, aliveTime: 38, registers: [Register { 30 }, Register { 32 }], ioDevice: IODevice { id: 2, processingTime: 1 } }
+    PCB { id: 3, state: Waiting, counter: 21, aliveTime: 36, registers: [Register { 98 }, Register { 37 }], ioDevice: null }
+  Terminated PCBs
+
+CPU State (@ 76 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 20, aliveTime: 40, registers: [Register { 80 }, Register { 17 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 35, aliveTime: 35, registers: [Register { 54 }, Register { 50 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 21, aliveTime: 36, registers: [Register { 98 }, Register { 37 }], ioDevice: IODevice { id: 2, processingTime: 5 } }
+  Terminated PCBs
+
+CPU State (@ 77 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 20, aliveTime: 40, registers: [Register { 80 }, Register { 17 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 36, aliveTime: 36, registers: [Register { 22 }, Register { 61 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 21, aliveTime: 37, registers: [Register { 98 }, Register { 37 }], ioDevice: IODevice { id: 2, processingTime: 4 } }
+  Terminated PCBs
+
+CPU State (@ 78 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 36, aliveTime: 36, registers: [Register { 22 }, Register { 61 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 21, aliveTime: 41, registers: [Register { 31 }, Register { 67 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 21, aliveTime: 38, registers: [Register { 98 }, Register { 37 }], ioDevice: IODevice { id: 2, processingTime: 3 } }
+  Terminated PCBs
+
+CPU State (@ 79 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 36, aliveTime: 36, registers: [Register { 22 }, Register { 61 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 22, aliveTime: 42, registers: [Register { 75 }, Register { 36 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 21, aliveTime: 39, registers: [Register { 98 }, Register { 37 }], ioDevice: IODevice { id: 2, processingTime: 2 } }
+  Terminated PCBs
+
+CPU State (@ 80 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 22, aliveTime: 42, registers: [Register { 75 }, Register { 36 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 37, aliveTime: 37, registers: [Register { 33 }, Register { 11 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 21, aliveTime: 40, registers: [Register { 98 }, Register { 37 }], ioDevice: IODevice { id: 2, processingTime: 1 } }
+  Terminated PCBs
+
+CPU State (@ 81 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 22, aliveTime: 42, registers: [Register { 75 }, Register { 36 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 22, aliveTime: 42, registers: [Register { 52 }, Register { 65 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 38, aliveTime: 38, registers: [Register { 73 }, Register { 80 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 82 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 22, aliveTime: 42, registers: [Register { 52 }, Register { 65 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 38, aliveTime: 38, registers: [Register { 73 }, Register { 80 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 23, aliveTime: 43, registers: [Register { 14 }, Register { 42 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 83 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 22, aliveTime: 42, registers: [Register { 52 }, Register { 65 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 38, aliveTime: 38, registers: [Register { 73 }, Register { 80 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 24, aliveTime: 44, registers: [Register { 31 }, Register { 48 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 84 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 38, aliveTime: 38, registers: [Register { 73 }, Register { 80 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 24, aliveTime: 44, registers: [Register { 31 }, Register { 48 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 22, aliveTime: 42, registers: [Register { 52 }, Register { 65 }], ioDevice: null }
+  Terminated PCBs
+
+CPU State (@ 85 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 24, aliveTime: 44, registers: [Register { 31 }, Register { 48 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 39, aliveTime: 39, registers: [Register { 71 }, Register { 26 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 22, aliveTime: 42, registers: [Register { 52 }, Register { 65 }], ioDevice: IODevice { id: 2, processingTime: 5 } }
+  Terminated PCBs
+
+CPU State (@ 86 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 24, aliveTime: 44, registers: [Register { 31 }, Register { 48 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 40, aliveTime: 40, registers: [Register { 68 }, Register { 42 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 22, aliveTime: 43, registers: [Register { 52 }, Register { 65 }], ioDevice: IODevice { id: 2, processingTime: 4 } }
+  Terminated PCBs
+
+CPU State (@ 87 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 40, aliveTime: 40, registers: [Register { 68 }, Register { 42 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 25, aliveTime: 45, registers: [Register { 0 }, Register { 16 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 22, aliveTime: 44, registers: [Register { 52 }, Register { 65 }], ioDevice: IODevice { id: 2, processingTime: 3 } }
+  Terminated PCBs
+
+CPU State (@ 88 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 40, aliveTime: 40, registers: [Register { 68 }, Register { 42 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 26, aliveTime: 46, registers: [Register { 6 }, Register { 50 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 22, aliveTime: 45, registers: [Register { 52 }, Register { 65 }], ioDevice: IODevice { id: 2, processingTime: 2 } }
+  Terminated PCBs
+
+CPU State (@ 89 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 26, aliveTime: 46, registers: [Register { 6 }, Register { 50 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 41, aliveTime: 41, registers: [Register { 22 }, Register { 0 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+    PCB { id: 3, state: Waiting, counter: 22, aliveTime: 46, registers: [Register { 52 }, Register { 65 }], ioDevice: IODevice { id: 2, processingTime: 1 } }
+  Terminated PCBs
+
+CPU State (@ 90 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 26, aliveTime: 46, registers: [Register { 6 }, Register { 50 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 23, aliveTime: 48, registers: [Register { 42 }, Register { 17 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 42, aliveTime: 42, registers: [Register { 87 }, Register { 86 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 91 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 23, aliveTime: 48, registers: [Register { 42 }, Register { 17 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 42, aliveTime: 42, registers: [Register { 87 }, Register { 86 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 27, aliveTime: 47, registers: [Register { 20 }, Register { 7 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 92 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 23, aliveTime: 48, registers: [Register { 42 }, Register { 17 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 42, aliveTime: 42, registers: [Register { 87 }, Register { 86 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 28, aliveTime: 48, registers: [Register { 89 }, Register { 11 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 93 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 42, aliveTime: 42, registers: [Register { 87 }, Register { 86 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 28, aliveTime: 48, registers: [Register { 89 }, Register { 11 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 24, aliveTime: 49, registers: [Register { 82 }, Register { 16 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 94 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 28, aliveTime: 48, registers: [Register { 89 }, Register { 11 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 24, aliveTime: 49, registers: [Register { 82 }, Register { 16 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 43, aliveTime: 43, registers: [Register { 11 }, Register { 96 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 95 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 28, aliveTime: 48, registers: [Register { 89 }, Register { 11 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 24, aliveTime: 49, registers: [Register { 82 }, Register { 16 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 44, aliveTime: 44, registers: [Register { 35 }, Register { 82 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 96 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 24, aliveTime: 49, registers: [Register { 82 }, Register { 16 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 44, aliveTime: 44, registers: [Register { 35 }, Register { 82 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 29, aliveTime: 49, registers: [Register { 50 }, Register { 45 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 97 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 24, aliveTime: 49, registers: [Register { 82 }, Register { 16 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 44, aliveTime: 44, registers: [Register { 35 }, Register { 82 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 30, aliveTime: 50, registers: [Register { 17 }, Register { 13 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 98 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 44, aliveTime: 44, registers: [Register { 35 }, Register { 82 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 30, aliveTime: 50, registers: [Register { 17 }, Register { 13 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 25, aliveTime: 50, registers: [Register { 84 }, Register { 14 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 99 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 44, aliveTime: 44, registers: [Register { 35 }, Register { 82 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 30, aliveTime: 50, registers: [Register { 17 }, Register { 13 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 26, aliveTime: 51, registers: [Register { 18 }, Register { 96 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 100 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 30, aliveTime: 50, registers: [Register { 17 }, Register { 13 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 26, aliveTime: 51, registers: [Register { 18 }, Register { 96 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 45, aliveTime: 45, registers: [Register { 58 }, Register { 86 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 101 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 30, aliveTime: 50, registers: [Register { 17 }, Register { 13 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 26, aliveTime: 51, registers: [Register { 18 }, Register { 96 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 46, aliveTime: 46, registers: [Register { 23 }, Register { 8 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 102 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 26, aliveTime: 51, registers: [Register { 18 }, Register { 96 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 46, aliveTime: 46, registers: [Register { 23 }, Register { 8 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 31, aliveTime: 51, registers: [Register { 23 }, Register { 25 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 103 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 26, aliveTime: 51, registers: [Register { 18 }, Register { 96 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 46, aliveTime: 46, registers: [Register { 23 }, Register { 8 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 32, aliveTime: 52, registers: [Register { 69 }, Register { 58 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 104 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 46, aliveTime: 46, registers: [Register { 23 }, Register { 8 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 32, aliveTime: 52, registers: [Register { 69 }, Register { 58 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 27, aliveTime: 52, registers: [Register { 60 }, Register { 23 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 105 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 46, aliveTime: 46, registers: [Register { 23 }, Register { 8 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 32, aliveTime: 52, registers: [Register { 69 }, Register { 58 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 28, aliveTime: 53, registers: [Register { 65 }, Register { 86 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 106 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 32, aliveTime: 52, registers: [Register { 69 }, Register { 58 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 28, aliveTime: 53, registers: [Register { 65 }, Register { 86 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 47, aliveTime: 47, registers: [Register { 0 }, Register { 51 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 107 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 32, aliveTime: 52, registers: [Register { 69 }, Register { 58 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 28, aliveTime: 53, registers: [Register { 65 }, Register { 86 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 48, aliveTime: 48, registers: [Register { 23 }, Register { 3 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 108 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 28, aliveTime: 53, registers: [Register { 65 }, Register { 86 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 48, aliveTime: 48, registers: [Register { 23 }, Register { 3 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 33, aliveTime: 53, registers: [Register { 35 }, Register { 10 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 109 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 28, aliveTime: 53, registers: [Register { 65 }, Register { 86 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 48, aliveTime: 48, registers: [Register { 23 }, Register { 3 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 34, aliveTime: 54, registers: [Register { 49 }, Register { 54 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 110 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 48, aliveTime: 48, registers: [Register { 23 }, Register { 3 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 34, aliveTime: 54, registers: [Register { 49 }, Register { 54 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 29, aliveTime: 54, registers: [Register { 29 }, Register { 87 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 111 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 48, aliveTime: 48, registers: [Register { 23 }, Register { 3 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 34, aliveTime: 54, registers: [Register { 49 }, Register { 54 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 30, aliveTime: 55, registers: [Register { 99 }, Register { 25 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 112 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 34, aliveTime: 54, registers: [Register { 49 }, Register { 54 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 30, aliveTime: 55, registers: [Register { 99 }, Register { 25 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 49, aliveTime: 49, registers: [Register { 89 }, Register { 58 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 113 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 34, aliveTime: 54, registers: [Register { 49 }, Register { 54 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 30, aliveTime: 55, registers: [Register { 99 }, Register { 25 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 50, aliveTime: 50, registers: [Register { 69 }, Register { 52 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 114 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 30, aliveTime: 55, registers: [Register { 99 }, Register { 25 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 50, aliveTime: 50, registers: [Register { 69 }, Register { 52 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 35, aliveTime: 55, registers: [Register { 31 }, Register { 65 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 115 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 30, aliveTime: 55, registers: [Register { 99 }, Register { 25 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 50, aliveTime: 50, registers: [Register { 69 }, Register { 52 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 36, aliveTime: 56, registers: [Register { 93 }, Register { 16 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 116 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 50, aliveTime: 50, registers: [Register { 69 }, Register { 52 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 36, aliveTime: 56, registers: [Register { 93 }, Register { 16 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 31, aliveTime: 56, registers: [Register { 60 }, Register { 94 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 117 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 50, aliveTime: 50, registers: [Register { 69 }, Register { 52 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 36, aliveTime: 56, registers: [Register { 93 }, Register { 16 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 32, aliveTime: 57, registers: [Register { 51 }, Register { 57 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 118 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 36, aliveTime: 56, registers: [Register { 93 }, Register { 16 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 32, aliveTime: 57, registers: [Register { 51 }, Register { 57 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 51, aliveTime: 51, registers: [Register { 49 }, Register { 67 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 119 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 36, aliveTime: 56, registers: [Register { 93 }, Register { 16 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 32, aliveTime: 57, registers: [Register { 51 }, Register { 57 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 52, aliveTime: 52, registers: [Register { 35 }, Register { 60 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 120 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 32, aliveTime: 57, registers: [Register { 51 }, Register { 57 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 52, aliveTime: 52, registers: [Register { 35 }, Register { 60 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 37, aliveTime: 57, registers: [Register { 9 }, Register { 18 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 121 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 32, aliveTime: 57, registers: [Register { 51 }, Register { 57 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 52, aliveTime: 52, registers: [Register { 35 }, Register { 60 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 38, aliveTime: 58, registers: [Register { 31 }, Register { 48 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 122 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 52, aliveTime: 52, registers: [Register { 35 }, Register { 60 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 38, aliveTime: 58, registers: [Register { 31 }, Register { 48 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 33, aliveTime: 58, registers: [Register { 93 }, Register { 44 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 123 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 52, aliveTime: 52, registers: [Register { 35 }, Register { 60 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 38, aliveTime: 58, registers: [Register { 31 }, Register { 48 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 34, aliveTime: 59, registers: [Register { 55 }, Register { 25 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 124 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 38, aliveTime: 58, registers: [Register { 31 }, Register { 48 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 34, aliveTime: 59, registers: [Register { 55 }, Register { 25 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 53, aliveTime: 53, registers: [Register { 6 }, Register { 40 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 125 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 38, aliveTime: 58, registers: [Register { 31 }, Register { 48 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 34, aliveTime: 59, registers: [Register { 55 }, Register { 25 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 54, aliveTime: 54, registers: [Register { 40 }, Register { 86 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 126 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 34, aliveTime: 59, registers: [Register { 55 }, Register { 25 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 54, aliveTime: 54, registers: [Register { 40 }, Register { 86 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 39, aliveTime: 59, registers: [Register { 43 }, Register { 37 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 127 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 34, aliveTime: 59, registers: [Register { 55 }, Register { 25 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 54, aliveTime: 54, registers: [Register { 40 }, Register { 86 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 40, aliveTime: 60, registers: [Register { 47 }, Register { 63 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 128 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 54, aliveTime: 54, registers: [Register { 40 }, Register { 86 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 40, aliveTime: 60, registers: [Register { 47 }, Register { 63 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 35, aliveTime: 60, registers: [Register { 28 }, Register { 76 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 129 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 54, aliveTime: 54, registers: [Register { 40 }, Register { 86 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 40, aliveTime: 60, registers: [Register { 47 }, Register { 63 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 36, aliveTime: 61, registers: [Register { 53 }, Register { 24 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 130 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 40, aliveTime: 60, registers: [Register { 47 }, Register { 63 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 36, aliveTime: 61, registers: [Register { 53 }, Register { 24 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 55, aliveTime: 55, registers: [Register { 40 }, Register { 86 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 131 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 40, aliveTime: 60, registers: [Register { 47 }, Register { 63 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 36, aliveTime: 61, registers: [Register { 53 }, Register { 24 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 56, aliveTime: 56, registers: [Register { 98 }, Register { 12 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 132 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 36, aliveTime: 61, registers: [Register { 53 }, Register { 24 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 56, aliveTime: 56, registers: [Register { 98 }, Register { 12 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 41, aliveTime: 61, registers: [Register { 38 }, Register { 34 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 133 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 36, aliveTime: 61, registers: [Register { 53 }, Register { 24 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 56, aliveTime: 56, registers: [Register { 98 }, Register { 12 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 42, aliveTime: 62, registers: [Register { 42 }, Register { 70 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 134 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 56, aliveTime: 56, registers: [Register { 98 }, Register { 12 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 42, aliveTime: 62, registers: [Register { 42 }, Register { 70 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 37, aliveTime: 62, registers: [Register { 39 }, Register { 77 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 135 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 56, aliveTime: 56, registers: [Register { 98 }, Register { 12 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 42, aliveTime: 62, registers: [Register { 42 }, Register { 70 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 38, aliveTime: 63, registers: [Register { 36 }, Register { 56 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 136 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 42, aliveTime: 62, registers: [Register { 42 }, Register { 70 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 38, aliveTime: 63, registers: [Register { 36 }, Register { 56 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 57, aliveTime: 57, registers: [Register { 11 }, Register { 33 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 137 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 42, aliveTime: 62, registers: [Register { 42 }, Register { 70 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 38, aliveTime: 63, registers: [Register { 36 }, Register { 56 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 58, aliveTime: 58, registers: [Register { 51 }, Register { 49 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 138 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 38, aliveTime: 63, registers: [Register { 36 }, Register { 56 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 58, aliveTime: 58, registers: [Register { 51 }, Register { 49 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 43, aliveTime: 63, registers: [Register { 13 }, Register { 73 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 139 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 38, aliveTime: 63, registers: [Register { 36 }, Register { 56 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 58, aliveTime: 58, registers: [Register { 51 }, Register { 49 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 44, aliveTime: 64, registers: [Register { 22 }, Register { 81 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 140 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 58, aliveTime: 58, registers: [Register { 51 }, Register { 49 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 44, aliveTime: 64, registers: [Register { 22 }, Register { 81 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 39, aliveTime: 64, registers: [Register { 16 }, Register { 17 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 141 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 58, aliveTime: 58, registers: [Register { 51 }, Register { 49 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 44, aliveTime: 64, registers: [Register { 22 }, Register { 81 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 40, aliveTime: 65, registers: [Register { 48 }, Register { 41 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 142 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 44, aliveTime: 64, registers: [Register { 22 }, Register { 81 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 40, aliveTime: 65, registers: [Register { 48 }, Register { 41 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 59, aliveTime: 59, registers: [Register { 20 }, Register { 12 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 143 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 44, aliveTime: 64, registers: [Register { 22 }, Register { 81 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 40, aliveTime: 65, registers: [Register { 48 }, Register { 41 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 60, aliveTime: 60, registers: [Register { 66 }, Register { 49 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 144 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 40, aliveTime: 65, registers: [Register { 48 }, Register { 41 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 60, aliveTime: 60, registers: [Register { 66 }, Register { 49 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 45, aliveTime: 65, registers: [Register { 81 }, Register { 64 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 145 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 40, aliveTime: 65, registers: [Register { 48 }, Register { 41 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 60, aliveTime: 60, registers: [Register { 66 }, Register { 49 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 46, aliveTime: 66, registers: [Register { 57 }, Register { 1 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 146 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 60, aliveTime: 60, registers: [Register { 66 }, Register { 49 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 46, aliveTime: 66, registers: [Register { 57 }, Register { 1 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 41, aliveTime: 66, registers: [Register { 79 }, Register { 82 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 147 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 60, aliveTime: 60, registers: [Register { 66 }, Register { 49 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 46, aliveTime: 66, registers: [Register { 57 }, Register { 1 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 42, aliveTime: 67, registers: [Register { 71 }, Register { 65 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 148 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 46, aliveTime: 66, registers: [Register { 57 }, Register { 1 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 42, aliveTime: 67, registers: [Register { 71 }, Register { 65 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 61, aliveTime: 61, registers: [Register { 0 }, Register { 9 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 149 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 46, aliveTime: 66, registers: [Register { 57 }, Register { 1 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 42, aliveTime: 67, registers: [Register { 71 }, Register { 65 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 62, aliveTime: 62, registers: [Register { 65 }, Register { 75 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 150 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 42, aliveTime: 67, registers: [Register { 71 }, Register { 65 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 62, aliveTime: 62, registers: [Register { 65 }, Register { 75 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 47, aliveTime: 67, registers: [Register { 22 }, Register { 0 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 151 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 42, aliveTime: 67, registers: [Register { 71 }, Register { 65 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 62, aliveTime: 62, registers: [Register { 65 }, Register { 75 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 48, aliveTime: 68, registers: [Register { 15 }, Register { 9 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 152 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 62, aliveTime: 62, registers: [Register { 65 }, Register { 75 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 48, aliveTime: 68, registers: [Register { 15 }, Register { 9 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 43, aliveTime: 68, registers: [Register { 46 }, Register { 22 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 153 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 62, aliveTime: 62, registers: [Register { 65 }, Register { 75 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 48, aliveTime: 68, registers: [Register { 15 }, Register { 9 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 44, aliveTime: 69, registers: [Register { 42 }, Register { 75 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 154 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 48, aliveTime: 68, registers: [Register { 15 }, Register { 9 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 44, aliveTime: 69, registers: [Register { 42 }, Register { 75 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 63, aliveTime: 63, registers: [Register { 6 }, Register { 59 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 155 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 48, aliveTime: 68, registers: [Register { 15 }, Register { 9 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 44, aliveTime: 69, registers: [Register { 42 }, Register { 75 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 64, aliveTime: 64, registers: [Register { 21 }, Register { 73 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 156 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 44, aliveTime: 69, registers: [Register { 42 }, Register { 75 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 64, aliveTime: 64, registers: [Register { 21 }, Register { 73 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 49, aliveTime: 69, registers: [Register { 11 }, Register { 15 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 157 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 44, aliveTime: 69, registers: [Register { 42 }, Register { 75 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 64, aliveTime: 64, registers: [Register { 21 }, Register { 73 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 50, aliveTime: 70, registers: [Register { 37 }, Register { 77 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 158 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 64, aliveTime: 64, registers: [Register { 21 }, Register { 73 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 50, aliveTime: 70, registers: [Register { 37 }, Register { 77 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 45, aliveTime: 70, registers: [Register { 4 }, Register { 17 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 159 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 64, aliveTime: 64, registers: [Register { 21 }, Register { 73 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 50, aliveTime: 70, registers: [Register { 37 }, Register { 77 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 46, aliveTime: 71, registers: [Register { 0 }, Register { 95 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 160 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 50, aliveTime: 70, registers: [Register { 37 }, Register { 77 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 46, aliveTime: 71, registers: [Register { 0 }, Register { 95 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 2, state: Running, counter: 65, aliveTime: 65, registers: [Register { 94 }, Register { 64 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 161 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 50, aliveTime: 70, registers: [Register { 37 }, Register { 77 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 46, aliveTime: 71, registers: [Register { 0 }, Register { 95 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 66, aliveTime: 66, registers: [Register { 31 }, Register { 56 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 162 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 46, aliveTime: 71, registers: [Register { 0 }, Register { 95 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 66, aliveTime: 66, registers: [Register { 31 }, Register { 56 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 51, aliveTime: 71, registers: [Register { 28 }, Register { 36 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 163 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 46, aliveTime: 71, registers: [Register { 0 }, Register { 95 }], ioDevice: null }
+    PCB { id: 2, state: Ready, counter: 66, aliveTime: 66, registers: [Register { 31 }, Register { 56 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 52, aliveTime: 72, registers: [Register { 47 }, Register { 19 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 164 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 66, aliveTime: 66, registers: [Register { 31 }, Register { 56 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 52, aliveTime: 72, registers: [Register { 47 }, Register { 19 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 47, aliveTime: 72, registers: [Register { 84 }, Register { 77 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 165 time units) 
+  Ready PCBs
+    PCB { id: 2, state: Ready, counter: 66, aliveTime: 66, registers: [Register { 31 }, Register { 56 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 52, aliveTime: 72, registers: [Register { 47 }, Register { 19 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 48, aliveTime: 73, registers: [Register { 60 }, Register { 66 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+
+CPU State (@ 166 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 52, aliveTime: 72, registers: [Register { 47 }, Register { 19 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 48, aliveTime: 73, registers: [Register { 60 }, Register { 66 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 167 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 48, aliveTime: 73, registers: [Register { 60 }, Register { 66 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 53, aliveTime: 73, registers: [Register { 20 }, Register { 94 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 168 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 48, aliveTime: 73, registers: [Register { 60 }, Register { 66 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 54, aliveTime: 74, registers: [Register { 26 }, Register { 39 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 169 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 54, aliveTime: 74, registers: [Register { 26 }, Register { 39 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 49, aliveTime: 74, registers: [Register { 40 }, Register { 28 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 170 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 54, aliveTime: 74, registers: [Register { 26 }, Register { 39 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 50, aliveTime: 75, registers: [Register { 50 }, Register { 16 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 171 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 50, aliveTime: 75, registers: [Register { 50 }, Register { 16 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 55, aliveTime: 75, registers: [Register { 52 }, Register { 91 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 172 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 50, aliveTime: 75, registers: [Register { 50 }, Register { 16 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 56, aliveTime: 76, registers: [Register { 73 }, Register { 15 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 173 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 56, aliveTime: 76, registers: [Register { 73 }, Register { 15 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 51, aliveTime: 76, registers: [Register { 56 }, Register { 5 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 174 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 56, aliveTime: 76, registers: [Register { 73 }, Register { 15 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 52, aliveTime: 77, registers: [Register { 68 }, Register { 25 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 175 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 52, aliveTime: 77, registers: [Register { 68 }, Register { 25 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 57, aliveTime: 77, registers: [Register { 63 }, Register { 27 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 176 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 52, aliveTime: 77, registers: [Register { 68 }, Register { 25 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 58, aliveTime: 78, registers: [Register { 48 }, Register { 96 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 177 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 58, aliveTime: 78, registers: [Register { 48 }, Register { 96 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 53, aliveTime: 78, registers: [Register { 1 }, Register { 43 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 178 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 58, aliveTime: 78, registers: [Register { 48 }, Register { 96 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 54, aliveTime: 79, registers: [Register { 35 }, Register { 91 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 179 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 54, aliveTime: 79, registers: [Register { 35 }, Register { 91 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 59, aliveTime: 79, registers: [Register { 74 }, Register { 95 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 180 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 54, aliveTime: 79, registers: [Register { 35 }, Register { 91 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 60, aliveTime: 80, registers: [Register { 66 }, Register { 12 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 181 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 60, aliveTime: 80, registers: [Register { 66 }, Register { 12 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 55, aliveTime: 80, registers: [Register { 63 }, Register { 34 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 182 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 60, aliveTime: 80, registers: [Register { 66 }, Register { 12 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 56, aliveTime: 81, registers: [Register { 26 }, Register { 37 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 183 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 56, aliveTime: 81, registers: [Register { 26 }, Register { 37 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 61, aliveTime: 81, registers: [Register { 39 }, Register { 58 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 184 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 56, aliveTime: 81, registers: [Register { 26 }, Register { 37 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 62, aliveTime: 82, registers: [Register { 8 }, Register { 56 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 185 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 62, aliveTime: 82, registers: [Register { 8 }, Register { 56 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 57, aliveTime: 82, registers: [Register { 19 }, Register { 20 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 186 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 62, aliveTime: 82, registers: [Register { 8 }, Register { 56 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 58, aliveTime: 83, registers: [Register { 34 }, Register { 42 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 187 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 58, aliveTime: 83, registers: [Register { 34 }, Register { 42 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 63, aliveTime: 83, registers: [Register { 49 }, Register { 44 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 188 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 58, aliveTime: 83, registers: [Register { 34 }, Register { 42 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 64, aliveTime: 84, registers: [Register { 36 }, Register { 84 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 189 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 64, aliveTime: 84, registers: [Register { 36 }, Register { 84 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 59, aliveTime: 84, registers: [Register { 68 }, Register { 41 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 190 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 64, aliveTime: 84, registers: [Register { 36 }, Register { 84 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 60, aliveTime: 85, registers: [Register { 85 }, Register { 29 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 191 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 60, aliveTime: 85, registers: [Register { 85 }, Register { 29 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 65, aliveTime: 85, registers: [Register { 77 }, Register { 64 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 192 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 60, aliveTime: 85, registers: [Register { 85 }, Register { 29 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 66, aliveTime: 86, registers: [Register { 88 }, Register { 96 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 193 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 66, aliveTime: 86, registers: [Register { 88 }, Register { 96 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 61, aliveTime: 86, registers: [Register { 8 }, Register { 10 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 194 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 66, aliveTime: 86, registers: [Register { 88 }, Register { 96 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 62, aliveTime: 87, registers: [Register { 99 }, Register { 59 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 195 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 62, aliveTime: 87, registers: [Register { 99 }, Register { 59 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 67, aliveTime: 87, registers: [Register { 59 }, Register { 25 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 196 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 62, aliveTime: 87, registers: [Register { 99 }, Register { 59 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 68, aliveTime: 88, registers: [Register { 0 }, Register { 97 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 197 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 68, aliveTime: 88, registers: [Register { 0 }, Register { 97 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 63, aliveTime: 88, registers: [Register { 57 }, Register { 40 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 198 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 68, aliveTime: 88, registers: [Register { 0 }, Register { 97 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 64, aliveTime: 89, registers: [Register { 69 }, Register { 59 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 199 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 64, aliveTime: 89, registers: [Register { 69 }, Register { 59 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 69, aliveTime: 89, registers: [Register { 43 }, Register { 17 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 200 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 64, aliveTime: 89, registers: [Register { 69 }, Register { 59 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 70, aliveTime: 90, registers: [Register { 36 }, Register { 7 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 201 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 70, aliveTime: 90, registers: [Register { 36 }, Register { 7 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 65, aliveTime: 90, registers: [Register { 57 }, Register { 90 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 202 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 70, aliveTime: 90, registers: [Register { 36 }, Register { 7 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 66, aliveTime: 91, registers: [Register { 42 }, Register { 46 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 203 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 66, aliveTime: 91, registers: [Register { 42 }, Register { 46 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 71, aliveTime: 91, registers: [Register { 34 }, Register { 3 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 204 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 66, aliveTime: 91, registers: [Register { 42 }, Register { 46 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 72, aliveTime: 92, registers: [Register { 31 }, Register { 70 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 205 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 72, aliveTime: 92, registers: [Register { 31 }, Register { 70 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 67, aliveTime: 92, registers: [Register { 16 }, Register { 86 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 206 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 72, aliveTime: 92, registers: [Register { 31 }, Register { 70 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 68, aliveTime: 93, registers: [Register { 28 }, Register { 22 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 207 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 68, aliveTime: 93, registers: [Register { 28 }, Register { 22 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 73, aliveTime: 93, registers: [Register { 32 }, Register { 24 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 208 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 68, aliveTime: 93, registers: [Register { 28 }, Register { 22 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 74, aliveTime: 94, registers: [Register { 71 }, Register { 64 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 209 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 74, aliveTime: 94, registers: [Register { 71 }, Register { 64 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 69, aliveTime: 94, registers: [Register { 80 }, Register { 25 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 210 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 74, aliveTime: 94, registers: [Register { 71 }, Register { 64 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 70, aliveTime: 95, registers: [Register { 71 }, Register { 54 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 211 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 70, aliveTime: 95, registers: [Register { 71 }, Register { 54 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 75, aliveTime: 95, registers: [Register { 38 }, Register { 12 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 212 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 70, aliveTime: 95, registers: [Register { 71 }, Register { 54 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 76, aliveTime: 96, registers: [Register { 67 }, Register { 28 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 213 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 76, aliveTime: 96, registers: [Register { 67 }, Register { 28 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 71, aliveTime: 96, registers: [Register { 40 }, Register { 97 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 214 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 76, aliveTime: 96, registers: [Register { 67 }, Register { 28 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 72, aliveTime: 97, registers: [Register { 45 }, Register { 64 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 215 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 72, aliveTime: 97, registers: [Register { 45 }, Register { 64 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 77, aliveTime: 97, registers: [Register { 67 }, Register { 74 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 216 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 72, aliveTime: 97, registers: [Register { 45 }, Register { 64 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 78, aliveTime: 98, registers: [Register { 4 }, Register { 59 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 217 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 78, aliveTime: 98, registers: [Register { 4 }, Register { 59 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 73, aliveTime: 98, registers: [Register { 3 }, Register { 54 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 218 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 78, aliveTime: 98, registers: [Register { 4 }, Register { 59 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 74, aliveTime: 99, registers: [Register { 76 }, Register { 91 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 219 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 74, aliveTime: 99, registers: [Register { 76 }, Register { 91 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 79, aliveTime: 99, registers: [Register { 4 }, Register { 76 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 220 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 74, aliveTime: 99, registers: [Register { 76 }, Register { 91 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 80, aliveTime: 100, registers: [Register { 64 }, Register { 32 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 221 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 80, aliveTime: 100, registers: [Register { 64 }, Register { 32 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 75, aliveTime: 100, registers: [Register { 3 }, Register { 21 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 222 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 80, aliveTime: 100, registers: [Register { 64 }, Register { 32 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 76, aliveTime: 101, registers: [Register { 98 }, Register { 0 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 223 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 76, aliveTime: 101, registers: [Register { 98 }, Register { 0 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 81, aliveTime: 101, registers: [Register { 81 }, Register { 52 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 224 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 76, aliveTime: 101, registers: [Register { 98 }, Register { 0 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 82, aliveTime: 102, registers: [Register { 49 }, Register { 54 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 225 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 82, aliveTime: 102, registers: [Register { 49 }, Register { 54 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 77, aliveTime: 102, registers: [Register { 19 }, Register { 43 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 226 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 82, aliveTime: 102, registers: [Register { 49 }, Register { 54 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 78, aliveTime: 103, registers: [Register { 89 }, Register { 58 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 227 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 78, aliveTime: 103, registers: [Register { 89 }, Register { 58 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 83, aliveTime: 103, registers: [Register { 68 }, Register { 19 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 228 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 78, aliveTime: 103, registers: [Register { 89 }, Register { 58 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 84, aliveTime: 104, registers: [Register { 66 }, Register { 61 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 229 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 84, aliveTime: 104, registers: [Register { 66 }, Register { 61 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 79, aliveTime: 104, registers: [Register { 25 }, Register { 91 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 230 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 84, aliveTime: 104, registers: [Register { 66 }, Register { 61 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 80, aliveTime: 105, registers: [Register { 46 }, Register { 85 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 231 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 80, aliveTime: 105, registers: [Register { 46 }, Register { 85 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 85, aliveTime: 105, registers: [Register { 8 }, Register { 57 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 232 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 80, aliveTime: 105, registers: [Register { 46 }, Register { 85 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 86, aliveTime: 106, registers: [Register { 46 }, Register { 1 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 233 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 86, aliveTime: 106, registers: [Register { 46 }, Register { 1 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 81, aliveTime: 106, registers: [Register { 90 }, Register { 73 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 234 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 86, aliveTime: 106, registers: [Register { 46 }, Register { 1 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 82, aliveTime: 107, registers: [Register { 97 }, Register { 69 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 235 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 82, aliveTime: 107, registers: [Register { 97 }, Register { 69 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 87, aliveTime: 107, registers: [Register { 34 }, Register { 7 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 236 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 82, aliveTime: 107, registers: [Register { 97 }, Register { 69 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 88, aliveTime: 108, registers: [Register { 5 }, Register { 84 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 237 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 88, aliveTime: 108, registers: [Register { 5 }, Register { 84 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 83, aliveTime: 108, registers: [Register { 6 }, Register { 41 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 238 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 88, aliveTime: 108, registers: [Register { 5 }, Register { 84 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 84, aliveTime: 109, registers: [Register { 67 }, Register { 90 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 239 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 84, aliveTime: 109, registers: [Register { 67 }, Register { 90 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 89, aliveTime: 109, registers: [Register { 48 }, Register { 79 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 240 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 84, aliveTime: 109, registers: [Register { 67 }, Register { 90 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 90, aliveTime: 110, registers: [Register { 68 }, Register { 75 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 241 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 90, aliveTime: 110, registers: [Register { 68 }, Register { 75 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 85, aliveTime: 110, registers: [Register { 18 }, Register { 82 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 242 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 90, aliveTime: 110, registers: [Register { 68 }, Register { 75 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 86, aliveTime: 111, registers: [Register { 30 }, Register { 96 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 243 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 86, aliveTime: 111, registers: [Register { 30 }, Register { 96 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 91, aliveTime: 111, registers: [Register { 50 }, Register { 77 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 244 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 86, aliveTime: 111, registers: [Register { 30 }, Register { 96 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 92, aliveTime: 112, registers: [Register { 20 }, Register { 67 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 245 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 92, aliveTime: 112, registers: [Register { 20 }, Register { 67 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 87, aliveTime: 112, registers: [Register { 62 }, Register { 12 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 246 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 92, aliveTime: 112, registers: [Register { 20 }, Register { 67 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 88, aliveTime: 113, registers: [Register { 20 }, Register { 31 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 247 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 88, aliveTime: 113, registers: [Register { 20 }, Register { 31 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 93, aliveTime: 113, registers: [Register { 52 }, Register { 90 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 248 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 88, aliveTime: 113, registers: [Register { 20 }, Register { 31 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 94, aliveTime: 114, registers: [Register { 51 }, Register { 70 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 249 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 94, aliveTime: 114, registers: [Register { 51 }, Register { 70 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 89, aliveTime: 114, registers: [Register { 58 }, Register { 48 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 250 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 94, aliveTime: 114, registers: [Register { 51 }, Register { 70 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 90, aliveTime: 115, registers: [Register { 95 }, Register { 95 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 251 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 90, aliveTime: 115, registers: [Register { 95 }, Register { 95 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 95, aliveTime: 115, registers: [Register { 12 }, Register { 98 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 252 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 90, aliveTime: 115, registers: [Register { 95 }, Register { 95 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 96, aliveTime: 116, registers: [Register { 13 }, Register { 78 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 253 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 96, aliveTime: 116, registers: [Register { 13 }, Register { 78 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 91, aliveTime: 116, registers: [Register { 12 }, Register { 3 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 254 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 96, aliveTime: 116, registers: [Register { 13 }, Register { 78 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 92, aliveTime: 117, registers: [Register { 59 }, Register { 2 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 255 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 92, aliveTime: 117, registers: [Register { 59 }, Register { 2 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 97, aliveTime: 117, registers: [Register { 70 }, Register { 94 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 256 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 92, aliveTime: 117, registers: [Register { 59 }, Register { 2 }], ioDevice: null }
+    PCB { id: 1, state: Ready, counter: 98, aliveTime: 118, registers: [Register { 97 }, Register { 22 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 257 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 98, aliveTime: 118, registers: [Register { 97 }, Register { 22 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 93, aliveTime: 118, registers: [Register { 5 }, Register { 31 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 258 time units) 
+  Ready PCBs
+    PCB { id: 1, state: Ready, counter: 98, aliveTime: 118, registers: [Register { 97 }, Register { 22 }], ioDevice: null }
+    PCB { id: 3, state: Ready, counter: 94, aliveTime: 119, registers: [Register { 94 }, Register { 55 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 259 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 94, aliveTime: 119, registers: [Register { 94 }, Register { 55 }], ioDevice: null }
+  Running PCBs
+    PCB { id: 1, state: Running, counter: 99, aliveTime: 119, registers: [Register { 74 }, Register { 22 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+
+CPU State (@ 260 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 94, aliveTime: 119, registers: [Register { 94 }, Register { 55 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 261 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 95, aliveTime: 120, registers: [Register { 87 }, Register { 26 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 262 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 96, aliveTime: 121, registers: [Register { 64 }, Register { 58 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 263 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 97, aliveTime: 122, registers: [Register { 26 }, Register { 84 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 264 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 98, aliveTime: 123, registers: [Register { 5 }, Register { 87 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 265 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 99, aliveTime: 124, registers: [Register { 14 }, Register { 42 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 266 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 100, aliveTime: 125, registers: [Register { 80 }, Register { 32 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 267 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 101, aliveTime: 126, registers: [Register { 94 }, Register { 61 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 268 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 102, aliveTime: 127, registers: [Register { 80 }, Register { 96 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 269 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 103, aliveTime: 128, registers: [Register { 75 }, Register { 1 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 270 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 104, aliveTime: 129, registers: [Register { 42 }, Register { 8 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 271 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 105, aliveTime: 130, registers: [Register { 56 }, Register { 58 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 272 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 106, aliveTime: 131, registers: [Register { 79 }, Register { 38 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 273 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 107, aliveTime: 132, registers: [Register { 6 }, Register { 87 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 274 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 108, aliveTime: 133, registers: [Register { 6 }, Register { 10 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 275 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 109, aliveTime: 134, registers: [Register { 83 }, Register { 58 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 276 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 110, aliveTime: 135, registers: [Register { 36 }, Register { 30 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 277 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 111, aliveTime: 136, registers: [Register { 93 }, Register { 58 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 278 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 112, aliveTime: 137, registers: [Register { 29 }, Register { 56 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 279 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 113, aliveTime: 138, registers: [Register { 71 }, Register { 53 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 280 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 114, aliveTime: 139, registers: [Register { 54 }, Register { 31 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 281 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 115, aliveTime: 140, registers: [Register { 3 }, Register { 26 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 282 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 116, aliveTime: 141, registers: [Register { 2 }, Register { 36 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 283 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 117, aliveTime: 142, registers: [Register { 87 }, Register { 88 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 284 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 118, aliveTime: 143, registers: [Register { 6 }, Register { 83 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 285 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 119, aliveTime: 144, registers: [Register { 2 }, Register { 72 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 286 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 120, aliveTime: 145, registers: [Register { 61 }, Register { 46 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 287 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 121, aliveTime: 146, registers: [Register { 81 }, Register { 27 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 288 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 122, aliveTime: 147, registers: [Register { 8 }, Register { 87 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 289 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 123, aliveTime: 148, registers: [Register { 41 }, Register { 11 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 290 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 124, aliveTime: 149, registers: [Register { 49 }, Register { 89 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 291 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 125, aliveTime: 150, registers: [Register { 74 }, Register { 41 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 292 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 126, aliveTime: 151, registers: [Register { 94 }, Register { 35 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 293 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 127, aliveTime: 152, registers: [Register { 31 }, Register { 11 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 294 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 128, aliveTime: 153, registers: [Register { 61 }, Register { 67 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 295 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 129, aliveTime: 154, registers: [Register { 46 }, Register { 59 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 296 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 130, aliveTime: 155, registers: [Register { 92 }, Register { 33 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 297 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 131, aliveTime: 156, registers: [Register { 21 }, Register { 45 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 298 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 132, aliveTime: 157, registers: [Register { 90 }, Register { 28 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 299 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 133, aliveTime: 158, registers: [Register { 57 }, Register { 49 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 300 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 134, aliveTime: 159, registers: [Register { 91 }, Register { 90 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 301 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 135, aliveTime: 160, registers: [Register { 64 }, Register { 19 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 302 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 136, aliveTime: 161, registers: [Register { 80 }, Register { 49 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 303 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 137, aliveTime: 162, registers: [Register { 93 }, Register { 9 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 304 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 138, aliveTime: 163, registers: [Register { 35 }, Register { 68 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 305 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 139, aliveTime: 164, registers: [Register { 37 }, Register { 9 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 306 time units) 
+  Ready PCBs
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 139, aliveTime: 164, registers: [Register { 37 }, Register { 9 }], ioDevice: null }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 307 time units) 
+  Ready PCBs
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 139, aliveTime: 164, registers: [Register { 37 }, Register { 9 }], ioDevice: IODevice { id: 1, processingTime: 5 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 308 time units) 
+  Ready PCBs
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 139, aliveTime: 165, registers: [Register { 37 }, Register { 9 }], ioDevice: IODevice { id: 1, processingTime: 4 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 309 time units) 
+  Ready PCBs
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 139, aliveTime: 166, registers: [Register { 37 }, Register { 9 }], ioDevice: IODevice { id: 1, processingTime: 3 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 310 time units) 
+  Ready PCBs
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 139, aliveTime: 167, registers: [Register { 37 }, Register { 9 }], ioDevice: IODevice { id: 1, processingTime: 2 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 311 time units) 
+  Ready PCBs
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 139, aliveTime: 168, registers: [Register { 37 }, Register { 9 }], ioDevice: IODevice { id: 1, processingTime: 1 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 312 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 141, aliveTime: 171, registers: [Register { 16 }, Register { 89 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 313 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 142, aliveTime: 172, registers: [Register { 91 }, Register { 10 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 314 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 143, aliveTime: 173, registers: [Register { 27 }, Register { 3 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 315 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 144, aliveTime: 174, registers: [Register { 62 }, Register { 26 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 316 time units) 
+  Ready PCBs
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 144, aliveTime: 174, registers: [Register { 62 }, Register { 26 }], ioDevice: null }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 317 time units) 
+  Ready PCBs
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 144, aliveTime: 174, registers: [Register { 62 }, Register { 26 }], ioDevice: IODevice { id: 1, processingTime: 5 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 318 time units) 
+  Ready PCBs
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 144, aliveTime: 175, registers: [Register { 62 }, Register { 26 }], ioDevice: IODevice { id: 1, processingTime: 4 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 319 time units) 
+  Ready PCBs
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 144, aliveTime: 176, registers: [Register { 62 }, Register { 26 }], ioDevice: IODevice { id: 1, processingTime: 3 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 320 time units) 
+  Ready PCBs
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 144, aliveTime: 177, registers: [Register { 62 }, Register { 26 }], ioDevice: IODevice { id: 1, processingTime: 2 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 321 time units) 
+  Ready PCBs
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+    PCB { id: 3, state: Waiting, counter: 144, aliveTime: 178, registers: [Register { 62 }, Register { 26 }], ioDevice: IODevice { id: 1, processingTime: 1 } }
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 322 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 146, aliveTime: 181, registers: [Register { 80 }, Register { 90 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 323 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 147, aliveTime: 182, registers: [Register { 37 }, Register { 19 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 324 time units) 
+  Ready PCBs
+    PCB { id: 3, state: Ready, counter: 148, aliveTime: 183, registers: [Register { 28 }, Register { 92 }], ioDevice: null }
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 325 time units) 
+  Ready PCBs
+  Running PCBs
+    PCB { id: 3, state: Running, counter: 149, aliveTime: 184, registers: [Register { 60 }, Register { 22 }], ioDevice: null }
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+
+CPU State (@ 326 time units) 
+  Ready PCBs
+  Running PCBs
+  Waiting PCBs (IO Device #1)
+  Waiting PCBs (IO Device #2)
+  Terminated PCBs
+    PCB { id: 2, state: Terminated, counter: 67, aliveTime: 67, registers: [], ioDevice: null }
+    PCB { id: 1, state: Terminated, counter: 100, aliveTime: 120, registers: [], ioDevice: null }
+    PCB { id: 3, state: Terminated, counter: 150, aliveTime: 185, registers: [], ioDevice: null }
+

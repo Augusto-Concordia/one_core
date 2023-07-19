@@ -32,4 +32,4 @@ CPU State (@ 11 time units)
   Terminated PCBs
 ```
 
-Please take a look at the sample input and output files in the root folder.
+Please take a look at the sample input and output files in the `tests` folder.
